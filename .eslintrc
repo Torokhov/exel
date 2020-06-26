@@ -6,7 +6,9 @@
     "node": true
   },
   "rules": {
-    "linebreak-style": ["error", "windows"]
+    "linebreak-style": ["error", "windows"],
+    "require-jsdoc": 0,
+    "max-len": "warn"
   },
   "extends": ["eslint:recommended", "google"]
 }
